@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fugaz+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Mulish", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Logo image */
+.logo_log {
+  position: absolute;
+  display: flex;
+  align-items: fcenter;
+  justify-content: center;
+  margin-left: 6px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  box-sizing: border-box;
+  align-items: left;
+}
+
+/* Hero image */
+.content-wrapper {
+  background-image: url("./MX-Intro-Image.webp");
+  opacity: 0.9;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 80%;
+  width: 100%;
+  margin-top: 4%;
+  padding: 20px;
+}
+
+/* Navigation bar  */
+.nav-container {
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 50px;
+  padding: 0;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  flex-direction: row;
+}
+
+.nav a {
+  color: rgb(255, 251, 251);
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  height: 90%;
+
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
+.nav input[type="search"] {
+  float: right;
+  padding: 10px;
+  border: white;
+  background: #ddd;
+  border-radius: 20px;
+  opacity: 0.7;
+  margin-left: 200px;
+}
+
+.nav i {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Main title on the hero image*/
+.main-title {
+  width: 100%;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-size: 55px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.subtitle-text {
+  width: 100%;
+  margin: 10px;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 17.16px;
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  line-height: 24.75px;
+  word-wrap: break-word;
+  padding: 20px;
+  display: flex;
+  text-align: left;
+}
+/* Buttons on the hero Image */
+.button-group {
+  padding-bottom: 50px;
+  padding-left: 12px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.button1,
+.button2 {
+  width: 150px;
+  height: 50px;
+  padding: 17px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-text {
+  text-align: center;
+  color: #2f3132;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+/* Second grid conta layout*/
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.card {
+  width: auto;
+  height: 100%;
+  margin: 7px;
+  border-radius: 3px;
+}
+
+.card-image {
+  height: 450px;
+  width: auto;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.card-1 {
+  background-image: url("./Combo\ line1\ \(2\).png");
+}
+
+.card-2 {
+  background-image: url("./Combo\ line1\ \(3\).png");
+}
+
+.card-3 {
+  background-image: url("./Combo\ line1\ \(1\).png");
+}
+
+.card h2 {
+  padding: 0px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.card a {
+  text-decoration: none;
+  text-decoration-color: grey;
+  padding: 15px 20px;
+  display: block;
+  font-size: medium;
+}
+
+.card p {
+  padding: 10px;
+  font-weight: 100;
+}
+
+/* Shop Series grid layout */
+
+.img_grid_container {
+  margin-top: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #e7e7e7;
+}
+
+.img_grid_container h1 {
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.image_grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image_grid {
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 290px;
+  gap: 10px;
+  grid-column: 1/-1;
+  margin-top: 70px;
+}
+
+/* Bento-grid layout*/
+.shop_products_container h3 {
+  text-align: center;
+  margin-top: 200px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.shop_product_container {
+  align-items: center;
+}
+
+.bento_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bento_container {
+  box-sizing: border-box;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 6px;
+  grid-column: 1/1;
+  margin: 50px;
+}
+
+/* Footer layout  */
+
+.footer-container {
+  text-align: left;
+  margin: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 2px;
+}
+.footer-col {
+  width: 30%;
+  padding: 10px;
+}
+.footer-col h4 {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.hr_line {
+  /* horizontal line */
+  width: 90%;
+  height: 1px;
+  border: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #aeabab;
+  margin-bottom: 50px;
+}
+
+.bottom-details {
+  /*copyright*/
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #aeabab;
+}
